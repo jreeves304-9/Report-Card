@@ -1,0 +1,33 @@
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  img {
+    width: 10rem;
+    height: auto;
+    padding: 1rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .footer-links-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  
+  #social-media {
+    display: flex;
+    gap: 1rem;
+  }
