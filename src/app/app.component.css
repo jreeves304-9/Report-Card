@@ -22,7 +22,7 @@ app-mobile-menu {
   }
 }
 
-/* @keyframes move {
+@keyframes move {
   100% {
     transform: translate3d(0, 0, 1px) rotate(360deg);
   }
@@ -491,4 +491,4 @@ app-mobile-menu {
   animation-delay: -252s;
   transform-origin: 15vw 14vh;
   box-shadow: -100vmin 0 12.634328863721114vmin currentColor;
-} */
+}

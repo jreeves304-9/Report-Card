@@ -6,16 +6,16 @@ body {
 }
 
 /*Default color*/
-:root {
+/* :root {
   --primary-color: #1d3e4e;
   --secondary-color: #bedded;
-}
+} */
 
 /*Transparent colors for bubble background*/
-/* :root {
+:root {
   --primary-color: #2d75d4b2;
   --secondary-color: #eceef0d2;
-} */
+}
 
 /*Maryland*/
 /* :root {

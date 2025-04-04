@@ -5,6 +5,17 @@
   color: var(--primary-color);
 }
 
+h1 {
+  background: linear-gradient(
+    135deg,
+    rgba(253, 254, 255, 0.8),
+    rgba(104, 244, 252, 0.5)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .dashboard-body {
   display: flex;
   gap: 2rem;
