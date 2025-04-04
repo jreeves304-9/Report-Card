@@ -54,7 +54,7 @@ input::placeholder {
 }
 
 #select-school-box {
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
 }
 
 .fa-paper-plane {

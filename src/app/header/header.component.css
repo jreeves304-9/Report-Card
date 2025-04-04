@@ -34,4 +34,9 @@ i {
   border-radius: 11px;
   padding: 10px;
   font-size: 1rem;
+  color: var(--primary-color);
+}
+
+#search-box::placeholder {
+  color: var(--primary-color);
 }
