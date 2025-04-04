@@ -1,0 +1,38 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#chatbot-header {
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-right: 20rem;
+}
+
+#chatbot-body {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-radius: 2rem; /*remove this when we make a decision on chat bot box behavior*/
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  color: var(--secondary-color);
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+input {
+  width: 24rem;
+  outline: none;
+}
+
+input::placeholder {
+  color: var(--secondary-color);
+}

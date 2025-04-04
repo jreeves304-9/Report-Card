@@ -1,0 +1,63 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+#search-box {
+  background-color: var(--secondary-color); /* Use the secondary color */
+  padding: 1rem; /* Add padding for spacing around the input */
+  border-radius: 2rem; /* Optional: Add rounded corners */
+  display: flex; /* Ensure proper alignment if more elements are added */
+  justify-content: center; /* Center the input field */
+}
+
+input {
+  width: 100%; /* Make the input take up the full width of the container */
+  border: none;
+  font-size: 1rem;
+  outline: none; /* Remove the default focus outline */
+  background: transparent;
+}
+
+input::placeholder {
+  color: var(--primary-color);
+}
+
+#advanced-search {
+  display: flex;
+  gap: 3rem;
+  margin: 1rem;
+  color: var(--primary-color);
+}
+
+#select-county-box,
+#select-school-box {
+  border-radius: 1.25rem;
+}
+
+#select-county,
+#select-school {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  appearance: none;
+  padding: 1rem;
+  margin-right: -6rem; /*this is a bizarre way to get the focus to be the size of the box */
+  padding-right: 7rem; /*offset the -6rem margin right */
+  outline: none;
+  color: var(--primary-color);
+}
+
+#select-county-box {
+  background-color: var(--secondary-color);
+}
+
+#select-school-box {
+  border: 1px solid var(--primary-color);
+}
+
+.fa-paper-plane {
+  margin-left: 3rem;
+  margin-right: 1rem;
+}

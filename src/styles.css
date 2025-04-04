@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Khula", sans-serif;
+}
+
+/*Default color*/
+:root {
+  --primary-color: #1d3e4e;
+  --secondary-color: #bedded;
+}
+
+/*Transparent colors for bubble background*/
+/* :root {
+  --primary-color: #2d75d4b2;
+  --secondary-color: #eceef0d2;
+} */
+
+/*Maryland*/
+/* :root {
+  --primary-color: #e21833;
+  --secondary-color: #ffd200;
+} */
+
+/*Florida Miami Vice*/
+/* :root {
+  --primary-color: #00b7a3;
+  --secondary-color: #9b59b6;
+} */

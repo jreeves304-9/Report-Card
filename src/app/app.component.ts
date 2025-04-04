@@ -1,19 +1,22 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderBarComponent } from './header-bar/header-bar.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
-import { DataRectangleComponent } from './data-rectangle/data-rectangle.component';
-import { OptionsSectionComponent } from './options-section/options-section.component';
-import { SearchSectionComponent } from './search-section/search-section.component';
-import { MapComponent } from "./map/map.component";
-
+import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderBarComponent, FooterComponent, DataRectangleComponent, OptionsSectionComponent, SearchSectionComponent, MapComponent],
+  imports: [
+    RouterOutlet,
+    SidebarComponent,
+    BodyComponent,
+    FooterComponent,
+    MobileMenuComponent,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'Report-Card';
+  title = 'Education-Products';
 }

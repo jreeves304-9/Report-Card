@@ -1,0 +1,37 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 10rem;
+  height: auto;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+i {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+#header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 2rem;
+}
+
+/* Style for search box and language select */
+#search-box,
+#language-select {
+  border: 2px solid var(--primary-color);
+  border-radius: 11px;
+  padding: 10px;
+  font-size: 1rem;
+}

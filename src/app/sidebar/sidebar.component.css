@@ -1,0 +1,43 @@
+#sidebar-div {
+  width: 4rem;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-right-radius: 15px;
+  height: 100vh;
+  position: sticky;
+  bottom: 0;
+  top: 0;
+}
+
+#sidebar-top {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  gap: 20px; /* Add 10px space between child elements */
+  margin-top: 20px; /* Add space from the top */
+}
+
+#sidebar-bottom {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  gap: 20px; /* Add 10px space between child elements */
+  margin-bottom: 20px; /* Add space from the bottom */
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+i {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 800px) {
+  :host {
+    display: none;
+  }
+}
